@@ -17,6 +17,6 @@ jobs:
         with:
           project_name: CxFriese/ast-advanced-lab
           cx_tenant: cx_ast_se_friese_demo_na
-          base_uri: https://ast.checkmarx.net/
+          base_uri: https://ast.checkmarx.net
           cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
